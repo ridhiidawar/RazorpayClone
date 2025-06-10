@@ -1,4 +1,3 @@
-# RazorpayClone
 # Razorpay Clone 💳
 
 A fully responsive Razorpay homepage clone using **HTML**, **Tailwind CSS (via CDN)**, and custom styling.
