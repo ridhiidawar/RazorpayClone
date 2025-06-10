@@ -35,53 +35,6 @@
 </style>
 </head>
 <body>
-    <!-- ✅ Add this inside <body> -->
-<header class="shadow-md bg-white fixed top-0 left-0 w-full z-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-16">
-      <!-- Logo -->
-      <div class="flex-shrink-0">
-        <img class="h-8" src="./images/logo.svg" alt="Logo" />
-      </div>
-
-      <!-- Hamburger for mobile -->
-      <div class="lg:hidden">
-        <button id="menu-toggle" class="text-gray-800 focus:outline-none">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor"
-            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-            </path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Desktop Menu -->
-      <div class="hidden lg:flex space-x-6 text-sm font-medium text-gray-700">
-        <a href="#" class="hover:text-blue-600">Payments</a>
-        <a href="#" class="hover:text-blue-600">Banking</a>
-        <a href="#" class="hover:text-blue-600">Corporate Card</a>
-        <a href="#" class="hover:text-blue-600">Payroll</a>
-        <a href="#" class="hover:text-blue-600">Resources</a>
-        <a href="#" class="hover:text-blue-600">Support</a>
-        <a href="#" class="hover:text-blue-600">Pricing</a>
-        <button class="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700">Sign In</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="lg:hidden hidden px-4 pt-2 pb-4 space-y-2 text-sm text-gray-700 bg-white">
-    <a href="#" class="block">Payments</a>
-    <a href="#" class="block">Banking</a>
-    <a href="#" class="block">Corporate Card</a>
-    <a href="#" class="block">Payroll</a>
-    <a href="#" class="block">Resources</a>
-    <a href="#" class="block">Support</a>
-    <a href="#" class="block">Pricing</a>
-    <button class="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">Sign In</button>
-  </div>
-</header>
     <nav  class="bg-[#0b0b27] font-serif" >
      <div class="relative w-[1080px] mx-auto flex items-center justify-between">
          <a href="#" class="cursor-pointer py-7 pr-7">
@@ -1662,12 +1615,4 @@
   feather.replace();
 </script>
 </body>
-    <script>
-  const toggleBtn = document.getElementById('menu-toggle');
-  const mobileMenu = document.getElementById('mobile-menu');
-
-  toggleBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-  });
-</script>
 </html>
